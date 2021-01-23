@@ -1,0 +1,25 @@
+/*Para tablets*/
+@media (min-width:768px) { 
+.Mifoto{
+    width: 50vw;
+}
+
+}
+/*Para escritorio*/
+@media (min-width:1200px) {
+    .Mifoto{
+        width: 20vw;
+    }
+
+/*Para moviles*/    
+}
+@media only screen
+and (min-width: 320px)
+and (max-width: 736px)
+{
+
+    .Mifoto{
+        width: 80vw;
+    }
+
+}

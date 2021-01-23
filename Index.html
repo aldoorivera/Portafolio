@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link REL="StyleSheet" HREF="./CSS/Estilo.css" TYPE="text/css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body class="d-flex vh-100  " style="background-image: url('./IMGS/Fondo.jpg'); width: 100vw; background-repeat: no-repeat">
+
+    <div class="d-flex flex-column justify-content-between container">
+        <header class="p-3">
+            <h1 class="float-md-start " style="color: #f4cae0;">Web II Portafolio</h1> 
+            <!--md la unidad responsiva, se puede adaptar a ciertos dispositivos-->
+            <nav class="nav nav-masthead justify-content-evenly float-md-end text-dark">
+                <a href="index.html" class="nav-link text-dark fw-bold">Inicio</a>
+                <a href="porfolio.html" class="nav-link text-dark fw-bold">Proyectos</a>
+            </nav>
+        </header>
+        <main class="d-flex flex-column align-items-center align-items-md-end align-items-xl-center justify-content-center">
+            <div class="p-3 d-flex flex-wrap align-items-center justify-content-center">
+                <img alt="Aldo Osorio Rivera" src="./IMGS/IMG_1864.jpg" class="m-3 Mifoto" />
+                <h1 class="p-3" style="color: #000000;">Aldo Osorio Rivera</h1>
+            </div>
+    
+        </main>
+        <footer class="d-flex justify-content-around p-3 align-items-center">
+            <img src="./IMGS/instagram.svg" alt="">
+            <img src="./IMGS/twitter.svg" alt="">
+            <img src="./IMGS/facebook.svg" alt="">
+
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
