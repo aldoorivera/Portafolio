@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Tienne&display=swap');
 /*Para tablets*/
 @media (min-width:768px) { 
 .Mifoto{
@@ -23,3 +24,10 @@ and (max-width: 736px)
     }
 
 }
+.body{
+    background: rgb(74,87,89);
+    background: linear-gradient(90deg, rgba(74,87,89,0.742734593837535) 0%, rgba(222,219,210,0.700717787114846) 100%);
+    
+}
+
+
